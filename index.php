@@ -11,13 +11,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Censura testo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="bg-dark">
+    <h1 class="text-center my-5 text-primary">Censura il testo </h1>
+<div class="text-center container">
     <form action="action.php" method="GET">
-        <input type="text" name="paragrafo" placeholder="inserisci il testo ">
-        <input type="text" name="parola" placeholder="parola da censurare ">
-       <button type="submit"> invia </button>
+        <h2 class="text-danger">Scrivi qui il testo </h2>
+        <textarea  class="mb-5 form-control" type="text" name="paragrafo" placeholder="inserisci il testo "> </textarea>
+       <br >
+       <h2 class="text-danger">Scrivi qua la parola da censurare</h2>
+        <textarea   class="" type="text" name="parola" placeholder="parola da censurare "> </textarea>
+        <br>
+       <button  class="btn btn-success mt-5"type="submit"> invia </button>
+        </div>
+        
     </form>
 
 </body>
